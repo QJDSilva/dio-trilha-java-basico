@@ -1,0 +1,12 @@
+package Application;
+
+public class Program {
+
+	public static void main(String[] args) {
+				
+		contaTerminal conta1 = new contaTerminal
+		
+
+	}
+
+}

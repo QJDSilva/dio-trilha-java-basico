@@ -1,0 +1,40 @@
+package Application;
+
+import java.util.Scanner;
+
+public class ContaTerminal {
+
+	public static void main(String[] args) {
+				
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite o número da conta:");	
+		int numeroConta =  sc.nextInt();
+		
+		sc.nextLine();
+				
+		System.out.print("Digite a agencia:");
+		int agencia = sc.nextInt();
+		
+		sc.nextLine();
+		
+		System.out.print("Digite o nome do titular da conta:");
+		String nome = sc.nextLine();
+		
+		System.out.print("Digite o saldo da conta:");
+		double saldo = sc.nextDouble();
+		
+		
+		System.out.println("\nDados da conta bancaria:");
+		System.out.println("\nNumero da conta:" + numeroConta);
+		System.out.println("Agência:" + agencia);
+		System.out.println("Nome do titular:" + nome);
+		System.out.println("Saldo: R$" + saldo);
+		
+		sc.close();
+		
+		
+
+	}
+
+}

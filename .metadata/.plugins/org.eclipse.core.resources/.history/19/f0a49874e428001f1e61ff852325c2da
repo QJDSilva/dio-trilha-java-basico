@@ -1,0 +1,23 @@
+package Application;
+
+import java.util.Scanner;
+
+public class ContaTerminal {
+
+	public static void main(String[] args) {
+				
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o número da conta:");	
+		int numeroConta = sc.nextInt();
+		
+		System.out.println("Digite a agencia:");
+		int agencia =sc.nextInt();
+		
+		sc.nextLine();
+		
+		
+
+	}
+
+}
